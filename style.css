@@ -10,13 +10,13 @@
     
     li{
         padding-bottom: 3px;
-        color: white;
-        text-shadow: 1.5px 1px 3px black;
+        color: white(197, 51, 51);
+        text-shadow: 1.5px 1px 3px ;
         list-style-type: none;
     }
     
     p{
-        color: black;
+        color: white;
         text-shadow: .5px .5px white;
         text-align: center;
         font-size: xx-large;
@@ -24,7 +24,7 @@
     
     }
     h2{
-        font-family: sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         margin-top: -.5rem;
     }
     input{
@@ -43,18 +43,38 @@
     
       button {
         display: inline-block;
-        font-family: sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         background-color: blue;
         border-radius: 10px;
-        border: 3px double #cccccc;
-        color:black;
+        
+        color:white;
         text-align: center;
-        font-size: 15px;
+        font-size: 25px;
         padding: 20px;
         width: 200px;
         margin-top: 3px;
       }
-    
+      body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: contain;
+        background-size: 125%;
+        background-position: top;
+        background-image: url(https://images.unsplash.com/photo-1516116412344-6663387e8590?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1228&q=80);
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        font-family: Arial, Helvetica;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        color: white;
+      }
+
+
+
+      }
       button:hover{
           box-shadow: 5px 4px 8px yellow;
       }
@@ -65,8 +85,8 @@
         align-items: center;
     }
     #timer{
-        font-family: sans-serif;
-        background-color: #5a69f0;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: red;
         color: #eeeeee;
         font-size: x-large;
         text-shadow: .5px .5px black;
@@ -142,7 +162,7 @@
     #finalScore{
         padding-bottom: 0.5rem;
         font-size: x-large;
-        font-family: sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
     }
     

@@ -25,6 +25,7 @@
     }
     h2{
         font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
         margin-top: -.5rem;
     }
     input{
